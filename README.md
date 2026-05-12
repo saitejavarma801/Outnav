@@ -1,6 +1,8 @@
 # OutNav
 
 OutNav is an autonomous outdoor navigation framework designed for mobile robots operating in complex outdoor environments. It provides a modular and scalable navigation stack capable of real-time localization, mapping, obstacle detection, waypoint navigation, motion control, and sensor fusion for reliable autonomous mobility. 
+
+
 <img width="109" height="39" alt="image" src="https://github.com/user-attachments/assets/149a60ba-23b9-4c6c-add2-2146f9acfeb9" />
 
 ----
