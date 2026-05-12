@@ -382,22 +382,7 @@ Open **Settings** from the top menu. Fields available:
 | GPS Baud Rate | Serial baud rate for the GPS receiver (default: `9600`) |
 | Audio Enabled | Toggle all voice alerts on or off |
 
-### Config file (manual editing)
 
-The config is saved at `outnav/config.json`:
-
-```json
-{
-  "robot_ip": "192.168.1.100",
-  "ros_domain_id": 0,
-  "camera_topic": "/image_raw/compressed",
-  "gps_serial_port": "/dev/ttyUSB0",
-  "gps_baud_rate": 9600,
-  "audio_enabled": true
-}
-```
-
-Edit this file in any text editor and restart the app for changes to take effect.
 <img width="964" height="863" alt="image" src="https://github.com/user-attachments/assets/dae155f2-4cf2-4d04-be58-2ec20f4676d7" />
 
 ---
@@ -451,3 +436,66 @@ cd outnav
 - Confirm ROS2 is sourced: `echo $ROS_DISTRO` should print `humble`
 - Verify all Python dependencies are installed: `pip show PyQt5 PyQtWebEngine opencv-python tf-transformations`
 - Check the log file in `outnav/logs/` for the error traceback
+
+
+---
+
+## License
+
+**OutNav Proprietary Source License**
+Copyright &copy; 2025 Sai Teja Varma. All rights reserved.
+
+### 1. Ownership
+
+This software, including its source code, documentation, algorithms, and all associated files (collectively, "OutNav"), is the sole and exclusive intellectual property of Sai Teja Varma ("the Author"). No ownership rights are transferred to any party through access to or use of this software.
+
+### 2. Permitted Use
+
+Subject to the terms and conditions of this License, the Author grants any individual or organisation a limited, non-exclusive, non-transferable, royalty-free right to:
+
+- Install and operate OutNav for personal, academic, or internal non-commercial purposes;
+- Access and study the source code for educational or evaluative purposes;
+- Fork this repository and propose contributions exclusively through official pull requests directed to the original repository.
+
+### 3. Restrictions
+
+Unless expressly authorised in writing by the Author, the following actions are strictly prohibited:
+
+- Redistributing, sublicensing, selling, or otherwise transferring OutNav or any derivative thereof to any third party;
+- Modifying, adapting, translating, or creating derivative works based on OutNav for purposes other than contributing back to the original project;
+- Incorporating OutNav or any portion of its source code into any commercial product, service, or offering;
+- Removing, altering, or obscuring any copyright, trademark, or proprietary notice contained within OutNav.
+
+### 4. Contributions
+
+Contributions to OutNav are welcomed and encouraged. By submitting a pull request, patch, or any other form of contribution, the contributor:
+
+- Affirms that the contribution is their original work and that they hold the right to submit it;
+- Irrevocably assigns all intellectual property rights in the contribution to Sai Teja Varma;
+- Agrees that the contribution shall be governed by the same terms as this License.
+
+All accepted contributors will be acknowledged within the project.
+
+### 5. Disclaimer of Warranties
+
+OutNav is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement. The Author makes no representations or guarantees regarding the reliability, accuracy, or suitability of this software for any specific use case.
+
+### 6. Limitation of Liability
+
+In no event shall the Author be liable for any direct, indirect, incidental, special, exemplary, or consequential damages — including but not limited to loss of data, loss of revenue, or business interruption — arising out of or in connection with the use or inability to use OutNav, even if advised of the possibility of such damages.
+
+### 7. Governing Law
+
+This License shall be governed by and construed in accordance with applicable intellectual property law. Any disputes arising under this License shall be subject to the exclusive jurisdiction of the courts competent for the Author's place of residence.
+
+---
+
+## Contact
+
+For licensing inquiries, collaboration proposals, or permission requests, please contact the Author directly.
+
+**Sai Teja Varma**
+📧 [saitejavarma801@gmail.com](mailto:saitejavarma801@gmail.com)
+
+
+
